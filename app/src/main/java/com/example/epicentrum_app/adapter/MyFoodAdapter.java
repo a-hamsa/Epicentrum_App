@@ -71,7 +71,7 @@ public class MyFoodAdapter extends RecyclerView.Adapter<MyFoodAdapter.MyFoodView
                     cartModel.setQuantity(cartModel.getQuantity()+1);
                     Map<String, Object> updateData = new HashMap<>();
                     updateData.put("quantity", cartModel.getQuantity());
-                    updateData.put("totalPrice", cartModel.getQuantity()*Float.parseFloat(cartModel.getPrice()));
+                    updateData.put("totalPrice", cartModel.getQuantity()*Integer.parseInt(cartModel.getPrice()));
 
                     userCart.child(foodModel.getKey()).updateChildren(updateData).addOnSuccessListener(aVoid -> {
                         iCartLoadListener.onCartLoadFailed("Add to cart Success");
@@ -83,7 +83,7 @@ public class MyFoodAdapter extends RecyclerView.Adapter<MyFoodAdapter.MyFoodView
                     cartModel.setKey(foodModel.getKey());
                     cartModel.setPrice(foodModel.getPrice());
                     cartModel.setQuantity(1);
-                    cartModel.setTotalPrice(Float.parseFloat(foodModel.getPrice()));
+                    cartModel.setTotalPrice(Integer.parseInt(foodModel.getPrice()));
 
                     userCart.child(foodModel.getKey()).setValue(cartModel).addOnSuccessListener(aVoid -> {
                         iCartLoadListener.onCartLoadFailed("Add to cart Success");
