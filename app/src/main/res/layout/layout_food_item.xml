@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="270dp"
-        android:background="#808080"
+        android:background="#000"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp">
@@ -23,22 +23,24 @@
             android:src="@drawable/common_google_signin_btn_icon_light" />
 
         <TextView
-            android:id="@+id/txtPrice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:text="$1.0"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <TextView
             android:id="@+id/txtName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:text="name of drink"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:text="nama menu"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10px"
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp. xxxxx"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
 
     </LinearLayout>
 

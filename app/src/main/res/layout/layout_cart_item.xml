@@ -39,7 +39,8 @@
                     android:gravity="start"
                     android:text="Name"
                     android:id="@+id/txtName"
-                    android:textSize="30sp"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
                     android:textStyle="bold" />
                 <LinearLayout
                     android:layout_width="wrap_content"
