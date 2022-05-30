@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152619378658",
+    "project_id": "epicentrum-app",
+    "storage_bucket": "epicentrum-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152619378658:android:3a40fe2187c5f8bcde3bbb",
+        "android_client_info": {
+          "package_name": "com.example.epicentrum_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152619378658-3kcj5a6djilvvl3oi76p6qjd0263pqto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJggTahfyirwmLVyxIoZZiQIKlNKjD8ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152619378658-3kcj5a6djilvvl3oi76p6qjd0263pqto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

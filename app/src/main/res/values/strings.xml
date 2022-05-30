@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Epicentrum_App</string>
+    <string name="menu">MENU</string>
+    <string name="please_confirm_customer_name_and_tables_number">Please confirm customer name and tables number</string>
+    <string name="admin_only">Admin Only!</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_out">Sign out</string>
+    <string name="state">State:</string>
+</resources>
