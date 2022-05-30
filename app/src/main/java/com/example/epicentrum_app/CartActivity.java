@@ -134,7 +134,7 @@ public class CartActivity extends AppCompatActivity implements ICartLoadListener
         for(CartModel cartModel:cartModelList){
             sum+=cartModel.getTotalPrice();
         }
-        txtTotal.setText(new StringBuilder("$").append(sum));
+        txtTotal.setText(new StringBuilder("Rp.").append(sum));
         MyCartAdapter adapter =  new MyCartAdapter(this, cartModelList);
         recyclerCart.setAdapter(adapter);
     }
